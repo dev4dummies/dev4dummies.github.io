@@ -16,8 +16,6 @@ def foo(x)
 end
 
 a,b = foo(10)
-
 p a #=> 15
-
 p b #=> 90
 {% endhighlight %}
