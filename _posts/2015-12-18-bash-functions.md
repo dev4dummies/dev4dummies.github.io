@@ -10,21 +10,17 @@ comments: true
 
 Ever with you could do this to create a file with all the necessary folders?
 
-{% highlight %}
     touch public/views/about.html
-{% endhighlight %}
 
 just open up your .bash_profile file and paste in the following function
 
-{% highlight %}
-ptouch() {
-  for p in "$@"; do
-    _dir="$(dirname -- "$p")"
-    [ -d "$_dir" ] || mkdir -p -- "$_dir"
-    touch -- "$p"
-  done
-}
-{% endhighlight %}
+    ptouch() {
+      for p in "$@"; do
+        _dir="$(dirname -- "$p")"
+        [ -d "$_dir" ] || mkdir -p -- "$_dir"
+        touch -- "$p"
+      done
+    }
 
 and now (after you either reboot your terminal or type)
 
@@ -38,12 +34,11 @@ and rejoice.
 
 While we're add it, add
 
-{% highlight %}
-mcd() { 
-  mkdir -p $1
-  cd $1
-}
-{% endhighlight %}
+    mcd() { 
+      mkdir -p $1
+      cd $1
+    }
+
 
 so you can `mcd myproject`, which creates a directory and puts you inside that directory all in one command.
 
