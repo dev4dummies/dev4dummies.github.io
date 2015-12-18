@@ -23,6 +23,6 @@ class Contact
 
 ##In Rails 4
 {% highlight ruby %}
-	class Contact
-		include ActiveModel::Model
+class Contact
+    include ActiveModel::Model
 {% endhighlight %}
