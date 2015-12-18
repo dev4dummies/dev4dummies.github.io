@@ -26,7 +26,7 @@ ptouch() {
 }
 {% endhighlight %}
 
-and now (after you reboot your terminal or type
+and now (after you either reboot your terminal or type)
 
     source ~/.bash_profile
     
