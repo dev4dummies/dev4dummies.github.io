@@ -13,13 +13,16 @@ Creating a Class that isn't in your database, yet you still want to use your fav
 just add the following lines to your class definitions
 
 ##In Rails 3
-	
-	class Contact
-		extend ActiveModel::Naming
- 		include ActiveModel::Conversion
-  		include ActiveModel::Validations
+{% highlight ruby %}
+class Contact
+    extend ActiveModel::Naming
+    include ActiveModel::Conversion
+    include ActiveModel::Validations	
+{% endhighlight %}
+
 
 ##In Rails 4
-	
+{% highlight ruby %}
 	class Contact
 		include ActiveModel::Model
+{% endhighlight %}
