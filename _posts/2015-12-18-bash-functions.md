@@ -8,10 +8,9 @@ comments: true
 
 ---
 
-Ever wish you could type this to create a file along with any necessary folders?
+Ever wish you could type this to create a file along with any necessary parent folders?
 
     touch public/views/about.html
-
 
 Just open up your .bash_profile file and paste in the following function
 
@@ -23,11 +22,9 @@ Just open up your .bash_profile file and paste in the following function
       done
     }
 
-and now (after you either reboot your terminal or type)
-
-    source ~/.bash_profile
+now either reboot your terminal or type `source ~/.bash_profile`
     
-you can type
+and from now on you can type
     
     ptouch public/views/about.html
 
