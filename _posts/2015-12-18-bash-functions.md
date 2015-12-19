@@ -8,11 +8,12 @@ comments: true
 
 ---
 
-Ever with you could do this to create a file with all the necessary folders?
+Ever wish you could type this to create a file along with any necessary folders?
 
     touch public/views/about.html
 
-just open up your .bash_profile file and paste in the following function
+
+Just open up your .bash_profile file and paste in the following function
 
     ptouch() {
       for p in "$@"; do
