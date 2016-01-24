@@ -21,6 +21,9 @@ No, it's not free, but I'm glad I bought it. This is just one of hundreds of aut
 Yeah there are free copies floating around but you are a well paid developer, right?
 
 Within an hour you should be able to figure it out and build the workflow seen below.
+Or just download this macro, import it into KM and see if it works.
+
+https://dl.dropboxusercontent.com/u/2048705/run_rspec.kmmacros
 
 How it works:
 
