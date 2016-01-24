@@ -26,9 +26,13 @@ How it works:
 
 1. You double tap the esc key (or choose any other key you like)
 2. Focus will shift to the app you have designated as your testing terminal. Terminal, in my case.
+    
     A. I use iTerm2 with multiple tabs for my coding tasks. Server, bash, rails console, etc.
+    
     B. I chose the default Terminal for running tests, and it displays on a different screen than my iTerm window.
+    
     C. With a little more effort, it might be possible for Keyboard Maestro to detect one particular window of iTerm2, and to leave the others alone (AHK can do this on Windows), but choosing a different Terminal app altogether was the simplest solution for now.
+
 3. Command-K clears the testing screen.
 4. Your tests are run.
 5. Focus is returned to your code.
